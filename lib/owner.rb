@@ -34,6 +34,12 @@ class Owner
     "I am a #{@species}."
   end
   
+  def walk_dogs
+    @pets[:dogs].each do |dog|
+      dog.mood = "happy"
+    end
+  end
+  
   # Class Methods
   def self.all
     @@all
