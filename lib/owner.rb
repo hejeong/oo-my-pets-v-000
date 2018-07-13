@@ -38,7 +38,7 @@ class Owner
     pet_counts = @pets.collect do |type, pets_array|
       pets_array.count
     end
-    "I have #{pet_counts[0]} fish, #{pet_counts[1]} dog(s), and #{pet_counts[2]} cat(s)."
+    "I have #{pet_counts[0]} fish, #{pet_counts[2]} dog(s), and #{pet_counts[1]} cat(s)."
   end
   
   def sell_pets
