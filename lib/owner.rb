@@ -8,5 +8,8 @@ class Owner
       :cats => [], 
       :dogs => []
     }
+    @@all << self
   end
+  
+  
 end
