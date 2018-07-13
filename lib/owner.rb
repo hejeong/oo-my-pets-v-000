@@ -1,3 +1,4 @@
+require 'pry'
 class Owner
   attr_accessor :pets
   attr_reader :species
@@ -17,7 +18,7 @@ class Owner
   def say_species
     puts "I am a #{@species}."
   end
-  
+  binding.pry
   # Class Methods
   def self.all
     @@all
